@@ -1,0 +1,24 @@
+-docroot mathematical_analysis
+
+./A_0.v
+./A_1.v
+./A_2.v
+./A_3.v
+./A_4.v
+./A_5.v
+./A_6.v
+./A_7.v
+./A_8.v
+./A_9_1.v
+./A_9_2.v
+./A_9_3.v
+./A_9_4.v
+./A_9_5.v
+./A_9_6.v
+
+-Q two_limits two_limits
+
+two_limits/A_series.v
+two_limits/A_e.v
+two_limits/A_sin.v
+

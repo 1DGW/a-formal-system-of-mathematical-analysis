@@ -1,2 +1,21 @@
 # a-formal-system-of-mathematical-analysis
-This repository is created to present the formalization of the textbook Mathematical Analyasis by School of Mathematical Sciences at East China Normal University.
+本形式化系统配套国内经典数学教材——华东师范大学《数学分析》\[1\], 使用定理证明器 Coq, 并以集合论为数学基础进行开发, 现阶段已基本实现教材上册中一元微积分相关内容的形式化, 
+包括极限理论、函数连续性、导数和微分、不定积分和黎曼积分等重要概念, 所有相关定义和定理均与教材内容严格对应, 并给出严格的Coq形式化描述和证明.
+同时, 利用Coq中的Notation机制, 系统中尽可能引入了常用数学符号, 使得代码简洁易读.
+利用本系统, 学习者可以对照课本, 交互地查看Coq形式化中的所有证明细节, 从而更好地理解和学习相关数学内容;
+教学人员也可以尝试将本系用于教学实践, 以检验学生是否真正理解和掌握数学理论.
+
+# 文件概况
+整个形式化由18个\(.v\)文件构成, 代码在Windows系统下, CoqIDE(版本8.20.1)中开发.
+CoqIDE(版本8.20.1)可通过此处获取[下载链接](https://github.com/rocq-prover/platform/releases/download/2025.01.0/Coq-Platform-release-2025.01.0-version.8.20.2025.01-Windows-x86_64.exe).
+其他版本的CoqIDE可通过此处获取[下载链接](https://rocq-prover.org/install#windows-vscode).
+
+文件**dependencygraph.pdf**展示了\(.v\)文件之间的依赖关系. 文件**instruction.pdf**简要介绍了CoqIDE中(.v)文件的使用方法.
+
+# 开发者
+该系统主要由北京邮电大学在读研究生窦国威<dgw@bupt.edu.cn>与其导师郁文生教授<wsyu@bupt.edu.cn>共同开发.
+
+其他合作开发者: 赵保强、于畅、高畅、周艳文 (均为曾就读于郁文生教授名下北京邮电大学研究生)
+
+# 主要参考文献
+\[1\] 华东师范大学数学系. 数学分析(上册). 第5版. 北京: 高等教育出版社, 2019. 

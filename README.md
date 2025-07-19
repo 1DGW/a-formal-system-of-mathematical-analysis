@@ -7,7 +7,7 @@
 
 # 文件概况
 整个形式化由18个\(.v\)文件构成, 代码在Windows系统下, CoqIDE(版本8.20.1)中开发.
-CoqIDE(版本8.20.1)可通过此处获取[下载链接](https://github.com/rocq-prover/platform/releases/download/2025.01.0/Coq-Platform-release-2025.01.0-version.8.20.2025.01-Windows-x86_64.exe).
+CoqIDE(版本8.20.1)可通过此处[直接下载](https://github.com/rocq-prover/platform/releases/download/2025.01.0/Coq-Platform-release-2025.01.0-version.8.20.2025.01-Windows-x86_64.exe).
 其他版本的CoqIDE可通过此处获取[下载链接](https://rocq-prover.org/install#windows-vscode).
 
 文件**dependencygraph.pdf**展示了\(.v\)文件之间的依赖关系. 文件**instruction.pdf**简要介绍了CoqIDE中(.v)文件的使用方法.
